@@ -2,7 +2,7 @@
 
 ## 📦 Installation
 
-### 1. Laravel Project Setup
+### Laravel Project Setup
 ```bash
 # Jalankan server Laravel
 php artisan serve
@@ -24,4 +24,6 @@ npm install jquery datatables.net datatables.net-dt
 npm run dev
 ```
 
-<iframe src="./PenjelasanProject.pdf" width="100%" height="600px"></iframe>
+## 📄 PDF Reference
+
+[Download PDF Penjelasan Project](https://username.github.io/repo-name/docs/PenjelasanProject.pdf)
