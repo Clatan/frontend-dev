@@ -3,7 +3,7 @@
 @section('title', 'Product List')
 
 @section('content')
-    <h1 class="text">Product List</h1>
+    <h1 class="text text-5xl mb-5">Product List</h1>
     <a href="{{ route('add.product') }}" class="mb-4 bg-blue-500 text-white px-12 py-2 rounded-xl border-2 border-blue-500 hover:bg-red-800 flex font-semibold justify-center hover:border-2 hover:border-red-500">
           Tambah Produk
     </a>

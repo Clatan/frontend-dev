@@ -3,7 +3,7 @@
 @section('title', 'Management Product')
 
 @section('content')
-    <img src="/logo.svg" alt="logo" class="mx-auto my-6">
+    <img src="/logo.svg" alt="logo" class="mx-auto">
     <div class="flex flex-col md:flex-row justify-center text-center gap-3">
         <p class="text sm:text-5xl md:text-4xl lg:text-5xl sm:-mb-3 -mb-5 text-5xl">Welcome to</p>
         <p class="text-1 sm:text-5xl md:text-4xl lg:text-5xl text-5xl">Management Product</p>
@@ -16,7 +16,7 @@
 
     <div class="grid grid-cols-2 gap-8">
       <a href="{{ route('product.index') }}" class="bg-blue-500 text-white px-12 py-8 rounded-xl border-2 border-blue-500 hover:bg-red-800 flex font-semibold justify-center hover:border-2 hover:border-red-500">
-          Manage Product
+          List Product
       </a>
       <a href="{{ route('add.product') }}" class="bg-blue-500 text-white px-12 py-8 rounded-xl border-2 border-blue-500 hover:bg-red-800 flex font-semibold justify-center hover:border-2 hover:border-red-500">
           Add Product

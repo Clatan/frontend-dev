@@ -11,7 +11,7 @@ Route::get('/add-product', function () {
     return view('/product/addproduct');
 })->name('add.product');
 
-Route::get('/manage-product', [ProductController::class, 'index'])->name('product.index');
+Route::get('/product', [ProductController::class, 'index'])->name('product.index');
 
 Route::post('/add-product', function (Illuminate\Http\Request $request) {
     $request->validate([

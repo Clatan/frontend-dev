@@ -43,7 +43,7 @@
           <aside id="sidebar" class="fixed top-0 left-0 w-64 h-screen bg-gray-800 text-white flex flex-col transform -translate-x-full transition-transform duration-300 ease-in-out z-30">
             <nav class="flex-1 p-4 space-y-2">
               <a href="{{ route('home') }}" class="block px-4 py-2 rounded hover:bg-gray-700 border-2 border-gray-800 hover:border-2 hover:border-gray-600">Home</a>
-              <a href="{{ route('product.index') }}" class="block px-4 py-2 rounded hover:bg-gray-700 border-2 border-gray-800 hover:border-2 hover:border-gray-600">Manage Products</a>
+              <a href="{{ route('product.index') }}" class="block px-4 py-2 rounded hover:bg-gray-700 border-2 border-gray-800 hover:border-2 hover:border-gray-600">List Products</a>
               <a href="{{ route('add.product') }}" class="block px-4 py-2 rounded hover:bg-gray-700 border-2 border-gray-800 hover:border-2 hover:border-gray-600">Add Products</a>
             </nav>
           </aside>
@@ -73,7 +73,7 @@
     </script>
     </body>
 
-    <footer class="bottom-0 left-0 w-full py-3">
+    <footer class="bottom-0 left-0 w-full">
         <p class="text-center text-gray-500 text-sm mt-10">© 2025 Management Product. All rights reserved.</p>
     </footer>
 </html>
