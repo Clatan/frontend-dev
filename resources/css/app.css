@@ -5,9 +5,54 @@
 .text{
     color: azure;
     text-align: center;
-    font-size: 54px;
     font-family: 'Lalezar';
     justify-content: center;
     align-items: center;
     max-width: 100%;
+}
+
+.text-1{
+    color: red;
+    text-align: center;
+    font-family: 'Lalezar';
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.subtext{
+    color: azure;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.text-nav{
+    color: azure;
+    font-size: 24px;
+    font-family: 'Lalezar';
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.boxes {
+    width: 400px;
+    height: 250px;
+    background: white;
+    position: relative;
+    margin: 30px auto;
+    box-shadow: 0 15px 25px rgba(0,0,0).6;
+    border-radius: 20px;
+}
+
+.boxes::after {
+    content: "";
+    background: rgb(43, 42, 42);
+    width: 90%;
+    height: 4px;
+    left: 3%;
+    border-radius: 50%;
+    filter: blur(3px);
 }
