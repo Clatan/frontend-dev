@@ -22,5 +22,6 @@ npm install jquery datatables.net datatables.net-dt
 
 # Compile assets
 npm run dev
+```
 
 <iframe src="./PenjelasanProject.pdf" width="100%" height="600px"></iframe>
