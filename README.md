@@ -26,4 +26,4 @@ npm run dev
 
 ## 📄 PDF Reference
 
-[Download PDF Penjelasan Project](https://username.github.io/frontend-dev/docs/PenjelasanProject.pdf)
+[Download PDF Penjelasan Project](https://Clatan.github.io/frontend-dev/docs/PenjelasanProject.pdf)
